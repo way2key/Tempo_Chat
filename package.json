@@ -1,0 +1,31 @@
+{
+  "name": "tempochat",
+  "version": "1.0.0",
+  "description": "A small multi-chatroom in node.js using socket.io based on Graphikart tutorial",
+  "main": "server.js",
+  "dependencies": {
+    "md5": "^2.2.1",
+    "socket.io": "^2.0.3",
+    "urlencode": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/way2key/TempoChat.git"
+  },
+  "keywords": [
+    "socket.io",
+    "chat",
+    "node.js"
+  ],
+  "author": "Olivier D'Ancona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/way2key/TempoChat/issues"
+  },
+  "homepage": "https://github.com/way2key/TempoChat#readme"
+}
